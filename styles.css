@@ -76,7 +76,7 @@ section {
     gap: 15px;
     height: auto;
 }
-.productos p{
+.no-productos p{
     display: none;
 }
 
