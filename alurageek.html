@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/alura-logo.1720710819.svg" type="image/svg+xml">
+</head>
+<body>
+    <header>
+        <img src="assets/alura-logo.1720710819.svg" alt="Logo AluraGeek">
+        <h1>AluraGeek</h1>
+    </header>
+    <main>
+        <!-- Sección de productos -->
+    <section class="productos">
+    <h1>Mis Productos</h1>
+    <div id="productos__contenedor" class="productos__contenedor">
+        <!-- Aqu se renderizarn los productos dinmicamente -->
+    </div>
+    <p>No se han agregado productos.</p>
+    </div>
+</section>
+
+
+       <!-- Sección del formulario -->
+    <section class="formulario">
+      <h1>Agregar Producto</h1>
+      <form id="formulario__producto">
+        <label for="nombre__producto">Nombre del producto</label>
+        <input id="nombre__producto" type="text" placeholder="Nombre del producto" required>
+
+        <label for="precio__producto">Precio</label>
+        <input id="precio__producto" type="number" placeholder="Precio del producto" step="0.01" required>
+
+        <label for="imagen__producto__url">URL de la imagen del producto</label>
+        <input id="imagen__producto" type="text" placeholder="https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77015976_56.jpg?ts=1727103821927&im=SmartCrop,width=368,height=515.2&imdensity=1" required>
+
+        <button type="submit">Agregar Producto</button>
+        <button type="reset">Limpiar</button>
+      </form>
+    </section>
+
+ <div class="background-container fade-in">
+        <div class="background-text line1">AluraGeek</div>
+        <div class="background-text line2">AluraGeek</div>
+        <div class="background-text line3">AluraGeek</div>
+        <div class="background-text line4">AluraGeek</div>
+        <div class="background-text line5">AluraGeek</div>
+        <div class="background-text line6">AluraGeek</div>
+    </div>
+
+ </main>
+
+    <footer>
+        <div id="logo">
+            <img src="Logo Jony Reyes.png" alt="Logo Jony Reyes">
+          </div>
+        <p>Desarrollado por Jony Reyes </p>
+        <p>2024 - Proyecto AluraGeek</p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>

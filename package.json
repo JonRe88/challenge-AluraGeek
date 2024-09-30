@@ -1,0 +1,15 @@
+{
+  "name": "alura",
+  "version": "1.0.0",
+  "main": "._app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jony",
+  "license": "ISC",
+  "description": "dresscode",
+  "dependencies": {
+    "node": "^22.9.0"
+  },
+  "devDependencies": {}
+}

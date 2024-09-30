@@ -1,0 +1,34 @@
+{
+  "productos": [
+    {
+      "id": "2",
+      "nombre": "Gabardina cinturón water repellent",
+      "precio": "3,999.00mxn",
+      "imagen": "https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77075961_31.jpg?imwidth=960&imdensity=1&ts=1723113289000"
+    },
+    {
+      "id": "f73c",
+      "nombre": "Sudadera polo 100% algodón",
+      "precio": 1299,
+      "imagen": "https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77027113_05.jpg?imwidth=480&imdensity=1&ts=1726828457551"
+    },
+    {
+      "id": "2f0b",
+      "nombre": "Mochila water repellent conexión USB",
+      "precio": 2199,
+      "imagen": "https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77055976_99_D9.jpg?imwidth=2048&imdensity=1&ts=1723653299432"
+    },
+    {
+      "id": "72b3",
+      "nombre": "pantalon chino",
+      "precio": 799,
+      "imagen": "https://shop.mango.com/assets/rcs/pics/static/T7/fotos/outfit/S/77055976_99-99999999_01.jpg?imwidth=480&imdensity=1&ts=1723653299432"
+    },
+    {
+      "id": "a580",
+      "nombre": "T",
+      "precio": 66,
+      "imagen": "https://shop.mango.com/assets/rcs/pics/static/T6/fotos/S/67067689_12.jpg?imwidth=2048&imdensity=1&ts=1710760279877"
+    }
+  ]
+}
