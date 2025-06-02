@@ -1,9 +1,11 @@
 {
   "name": "alura",
   "version": "1.0.0",
-  "main": "._app.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "json-server --watch db.json & vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "jony",
   "license": "ISC",
@@ -11,5 +13,8 @@
   "dependencies": {
     "node": "^22.9.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "vite": "^5.0.12"
+  }
 }
